@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.nav_div{
+    width: 100%;
+    height: 112.23px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    height: 50.8px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+nav img{
+    width: 86.45px;
+    height: 24.99px;
+    margin-left: 2%;
+}
+
+nav img{
+    cursor: pointer;
+}
+
+.social_media_div{
+    width: 260.56px;
+    height: 50.8px;
+    margin-left: 58.8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.social_media_div svg{
+    cursor: pointer;
+}
+
+.nav_red_box{
+    width:226.88px;
+    height: 50.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: red;
+}
+
+.nav_red_box:hover{
+    background-color: rgb(255, 63, 63);
+    cursor: pointer;
+}
+
+.ronaldo_div{
+    width: 100%;
+    height: 1274.4px;
+    display: flex;
+    background-color: transparent;
+}
+
+.ronaldo_div_1{
+    width: 50%;
+    height: 1274.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://images.squarespace-cdn.com/content/v1/6323340634aed74246ff8517/e27ff073-6fba-4171-8b88-2664815ea98e/backflag_grad_bottom.png?format=2500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ronaldo_div_1_cr7{
+    width: 100%;
+    height: 1274.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.ronaldo_div_1_cr7 img{
+    width: 754px;
+    height: 754px;
+}
+
+.ronaldo_div_2{
+    width: 50%;
+    height: 1274px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.ronaldo_div_2_sentence{
+    width: 100%;
+    height: 754px;
+    background-color: transparent;
+}
+
+.ronaldo_div_2_h1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.ronaldo_div_2_h1 p{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ronaldo_div_2_p{
+    width: 99%;
+    height: 20px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.ronaldo_div_2_p p{
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.button_div{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.button_div button{
+    width: 50%;
+    height: 71.2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17.6px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_1{
+    background-color: red;
+}
+
+.button_2{
+    background-color: white;
+}
+
+.button_1:hover{
+    background-color: rgb(255, 63, 63);
+}
+
+.button_2:hover{
+    background-color: rgb(233, 232, 232);
+}
+
+.empty_place_div{
+    width: 100%;
+    height: 240.76px;
+    background-color: black;
+}
+
+.brands_div{
+    width: 100%;
+    height: 275.86px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: transparent;
+}
+
+.brands_div_in{
+    width: 92.5%;
+    height: 185.56px;
+    display: flex;
+    background-color: transparent;
+}
+
+.brands_own_div{
+    width: 351.5px;
+    height: 185.56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.brands_own_div_in{
+    width: 349.09px;
+    height: 125.74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.footer_div{
+    width: 100%;
+    height: 330.7px;
+    display: flex;
+    background-color: transparent;
+}
+
+.footer_div_1{
+    width: 60%;
+    height: 330.7px;
+    background-color: transparent;
+}
+
+.footer_div_1_head{
+    width: 100%;
+    height: 30.1px;
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    background-color: transparent;
+}
+
+.footer_div_1_head_logo{
+    width: 220px;
+    height: 30.1px;
+    margin-left: 5%;
+    background:url(https://images.squarespace-cdn.com/content/v1/6323340634aed74246ff8517/85cca2d7-aa17-4de3-be42-3c472169c4f9/stkz-logotm-tm.png?format=300w);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_div_1_head_logo_sentences{
+    width: 50%;
+    height: 24px;
+    display: flex;
+    margin-left: 15%;
+    background-color: transparent;
+}
+
+.footer_div_1_head_logo_sentences ul{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12.8px;
+    color: white;
+    list-style: none;
+}
+
+.footer_div_1_head_logo_sentences li{
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.footer_div_p{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.footer_div_p span{
+    font-size: 12.8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.footer_div_2{
+    width: 40%;
+    height: 330.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.footer_div_2_in{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.footer_div_2_in img{
+    width: 70.84px;
+    height: 90px;
+    margin: 0 2%;
+}
